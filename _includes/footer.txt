@@ -1,0 +1,6 @@
+<div id="footer">
+ <p>Copyright &copy; 2012-<script>document.write(new Date().getFullYear())</script> KyGenWeb. All Rights Reserved.</p>
+			<p><a href="privacy-policy.html" title="Privacy Policy.">Privacy Policy</a></p>
+			<p class="smltxt">Template Design: <a href="http://www.genealogy-web-creations.com/"> Genealogy Web Creations</a> 
+			</p>
+		<div id="footer">

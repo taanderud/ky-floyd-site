@@ -1,0 +1,10 @@
+<link href="./_includes/site.css" rel="stylesheet" type="text/css" />
+<link href="./_includes/media-queries.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="images/site_artwork/favicon.ico">
+<meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width; initial-scale=1.0" name="viewport" />
+<!-- css3-mediaqueries.js for IE less than 9 -->
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js">
+</script>
+<![endif]-->

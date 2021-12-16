@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>KYGenWeb Project - Floyd County, Kentucky</title>
+	<meta name="description" content="View genealogical and family records for Floyd County, Kentucky families." />
+	<!--#include virtual="_includes/header-config.txt" -->
+</head>
+<body>
+			<!-- ========================================= -->
+	<div id="outerWrapper">
+	<!--#include virtual="_includes/masthead.txt" -->
+	<!--#include virtual="_includes/main-menu.txt" -->
+			<!-- ========================================= -->
+		<div id="contentWrapper">
+			<!-- Left Sidebar Begins Here	-->
+			<!--#include virtual="_includes/left-menu.txt" -->
+			<!-- Left Sidebar ends Here	-->
+			<!-- ========================================= -->
+
+			<!--Main Content Area Begins Here-->
+
+			<div id="content">
+				<h1>Welcome to the Floyd County, KY Research Site</h1>
+				<P>This site is for folks researching their Floyd County families and the county itself. If you are a beginner,
+					this site provides advice to help you explore the records. If you are experienced, you'll appreciate the
+					in-depth resources. Everyone is invited to help. If there is an issue, just <a
+						mailto:"dakotabrookswrites@gmail.com?subject=KYGENWEB Floyd Co">drop me a line.</a>
+				</P>
+				<h2>County History</h2>
+				<p>Floyd County was founded in 1797. On December 13, 1799, the Kentucky General Assembly passed legislation to
+					form Floyd County as the 40th Kentucky county. The legislation became effective on June 1, 1800. The county
+					was named for early pioneer and surveyor, James John Floyd. </p>
+				<P>The county was made from parts of <a href="http://kykinfolk.org/fleming/">Fleming</a>, <a
+						href="http://www.usgenwebsites.org/KYMontgomery/">Montgomery</a>, and <a
+						href="http://kykinfolk.org/mason/">Mason</a> Counties. The county seat was Preston&#39;s Station, located on
+					the Levisa Fork of the Big Sandy River. Later, it became Prestonsburg.</P>
+				<p>On April 8, 1808, a fire destorying all early records when the first court house burned down. The earliest
+					records of government activity come from the year 1808. The first post office opened in 1816 as Floyd Court
+					House.</p>
+				<P> Prestonsburg was used as a Confederate stronghold during the Civil War and two battles took place nearby:
+					the Battle of Ivy Mountain on November 8, 1861 and the Battle of Middle Creek on January 10, 1862. Both were
+					Union victories. </p>
+				<p> It contained all or part of <a href="http://www.kykinfolk.org/lawrence/">Lawrence</a>, <a
+						href="http://www.pikecounty.potterflats.com/">Pike,</a>
+					<a href="http://www.usgenwebsites.org/KYMorgan/">Morgan</a>, <a
+						href="http://kykinfolk.org/breathitt">Breathitt</a>, <a
+						href="http://usgenwebsites.org/KYLetcher/letcher.htm">Letcher</a>, <a
+						href="http://www.rootsweb.com/~kyjohnso/johnson.htm">Johnson,</a> <a
+						href="http://www.rootsweb.ancestry.com/~kyrowan/">Rowan</a>, <a
+						href="http://kykinfolk.org/magoffin/">Magoffin</a> ,<a
+						href="http://www.rootsweb.com/~kywolfe/index.html">Wolfe</a>, <a
+						href="http://kykinfolk.org/elliott/">Elliott</a>, <a href="http://kykinfolk.org/menifee/">Menifee</a>, <a
+						href="http://kykinfolk.org/martin/">Martin</a>, <a
+						href="http://www.rootsweb.ancestry.com/~kyknogw/">Knott</a> and <a
+						href="http://www.kykinfolk.org/perry/index.htm">Perry</a> . Final Boundary was formed in 1884.
+				</p>
+
+			</div> <!-- End Content-->
+			<!--Main Content Area Ends Here-->
+			<!-- Columns Container ends here -->
+			<!-- ========================================= -->
+			<!-- ========================================= -->
+			<!-- Footer begins here -->
+			<!--#include virtual="_includes/footer.txt" -->
+			<!-- Footer ends here -->
+			<!-- Page Container ends here -->
+			<!-- Template Credit Genealogy Web Creations http://www.genealogy-web-creations.com/  -->
+		</div> <!-- End ContentWrapper-->
+</body>
+</html>
