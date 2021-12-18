@@ -71,7 +71,7 @@
               <p><a href="http://usgwarchives.net/ky/floyd/toc.html">Floyd County Archives</a></p>
               <p><a href="http://usgwarchives.net/ky/kyfiles.html">Kentucky Archives</a></p>
               <h2>Floyd County Maps</h2>
-              <p><a href="images/Floyd_Map.jpg">Floyd County Map - B&amp;W Highway Map 1944</a> <a href="images/Floyd_Map1.jpg">Floyd County Map - Color Highway Map - Year Unknown</a></p>
+              <p><a href="images/Floyd-Map.jpg">Floyd County Map - B&amp;W Highway Map 1944</a> <a href="images/Floyd-Map1.jpg">Floyd County Map - Color Highway Map - Year Unknown</a></p>
               <p>&nbsp;</p>
               <p><img src="graphics/stonebar.gif" width="528" height="30" alt="stonebar"></p>
               <p>&nbsp;</p>
