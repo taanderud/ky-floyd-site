@@ -128,7 +128,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
+    content: "";
     content: none;
 }
 
@@ -1716,7 +1716,7 @@ input[type="radio"]+label:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 
@@ -1724,7 +1724,7 @@ input[type="checkbox"]+label:before,
 input[type="radio"]+label:before {
     background: rgba(144, 150, 154, 0.075);
     border: solid 2px #e8eaeb;
-    content: '';
+    content: "";
     display: inline-block;
     font-size: 0.8em;
     height: 2.0625em;
@@ -1741,7 +1741,7 @@ input[type="radio"]:checked+label:before {
     background: #333c40;
     border-color: #333c40;
     color: #ffffff;
-    content: '\f00c';
+    content: "\f00c";
 }
 
 input[type="checkbox"]:focus+label:before,
@@ -1755,22 +1755,22 @@ input[type="radio"]+label:before {
 
 ::-webkit-input-placeholder {
     color: #b8bfc2 !important;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 :-moz-placeholder {
     color: #b8bfc2 !important;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 ::-moz-placeholder {
     color: #b8bfc2 !important;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 :-ms-input-placeholder {
     color: #b8bfc2 !important;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 
@@ -1811,7 +1811,7 @@ input[type="radio"]+label:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 400;
 }
 
@@ -1824,7 +1824,7 @@ input[type="radio"]+label:before {
 }
 
 .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands';
+    font-family: "Font Awesome 5 Brands";
 }
 
 
@@ -2471,7 +2471,7 @@ body.landing #page-wrapper {
     border-left-width: 1px;
     border-style: solid;
     border-top-width: 1px;
-    content: '';
+    content: "";
     display: block;
     height: 1em;
     left: 50%;
@@ -2838,11 +2838,11 @@ body.landing #page-wrapper {
         text-rendering: auto;
         line-height: 1;
         text-transform: none !important;
-        font-family: 'Font Awesome 5 Free';
+        font-family: "Font Awesome 5 Free";
         font-weight: 900;
     }
     #navButton .toggle:before {
-        content: '\f0c9';
+        content: "\f0c9";
         background: rgba(144, 150, 154, 0.85);
         color: rgba(255, 255, 255, 0.75);
         display: block;
