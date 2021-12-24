@@ -27,6 +27,7 @@ TH {
   font-family:"Open Sans Serif", Helvetica, sans-serif;
   font-size: 12px;
   font-weight: normal;
+  background-color: #f8f8f8;
 }
 
 P {
@@ -37,11 +38,13 @@ P {
 LI, TD {
   font-family:"Open Sans Serif", Helvetica, sans-serif;
   font-size: 12px;
+
 }
 
 LI, TH {
   font-family:"Open Sans Serif", Helvetica, sans-serif;
   font-size: 12px;
+font-weight: bold;
 }
 
 P, TD {
@@ -52,6 +55,7 @@ P, TD {
 P, TH {
   font-family:"Open Sans Serif", Helvetica, sans-serif;
   font-size: 12px;
+background-color: #f8f8f8;
 }
 
 A {

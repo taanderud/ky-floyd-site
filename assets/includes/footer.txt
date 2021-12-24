@@ -1,6 +1,6 @@
 		<!-- ===================================================================== -->
 		<!-- START FOOTER  -->
-<div id="footer">
+<div id="footer" style="margin: 0px; padding: 10px">
  <p>Copyright &copy; 2012-<script>document.write(new Date().getFullYear())</script> KyGenWeb. All Rights Reserved.</p>
 			<p>You can link to these files but you may not reproduce these on another site or in any other form, without permission. 
 			While public records are not copyrightable, the presentation manner (including notes, comments, and so on) is. 
