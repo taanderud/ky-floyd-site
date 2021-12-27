@@ -1,5 +1,5 @@
 /*
-	Latitude by Pixelarity
+	Arcana by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
@@ -7,17 +7,16 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		$header = $('#header'),
-		$banner = $('#banner');
+		$body = $('body');
 
 	// Breakpoints.
 		breakpoints({
-			wide:     [ '1281px',  '1680px' ],
-			normal:   [ '981px',   '1280px' ],
-			narrow:   [ '737px',   '980px'  ],
-			mobile:   [ '481px',   '736px'  ],
-			mobilep:  [ null,      '480px'  ]
+			wide:      [ '1281px',  '1680px' ],
+			normal:    [ '981px',   '1280px' ],
+			narrow:    [ '841px',   '980px'  ],
+			narrower:  [ '737px',   '840px'  ],
+			mobile:    [ '481px',   '736px'  ],
+			mobilep:   [ null,      '480px'  ]
 		});
 
 	// Play initial animations on page load.
@@ -29,15 +28,18 @@
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
+			offsetY: -15,
+			hoverDelay: 0,
 			alignment: 'center'
 		});
 
-	// Nav Panel.
+	// Nav.
 
-		// Button.
+		// Bar.
 			$(
-				'<div id="navButton">' +
+				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
+					'<span class="title">' + $('#logo').html() + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -61,26 +63,5 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
-
-	// Header.
-	// If the header is using "alt" styling and #banner is present, use scrollwatch
-	// to revert it back to normal styling once the user scrolls past the banner.
-	// Note: This is disabled on mobile devices.
-		if (!browser.mobile
-		&&	$header.hasClass('alt')
-		&&	$banner.length > 0) {
-
-			$window.on('load', function() {
-
-				$banner.scrollex({
-					bottom:		$header.outerHeight(),
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt'); },
-					leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
-				});
-
-			});
-
-		}
 
 })(jQuery);
