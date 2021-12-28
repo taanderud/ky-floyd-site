@@ -2356,8 +2356,11 @@ body.landing #page-wrapper {
     z-index: 10000;
 }
 
+
+/* color was 60575b */
+
 #header h1 {
-    color: #575d60;
+    color: #fff;
     height: inherit;
     left: 1.25em;
     line-height: inherit;
@@ -2414,11 +2417,14 @@ body.landing #page-wrapper {
     color: #83e1a7 !important;
 }
 
+
+/* color was cccecf */
+
 #header.alt {
     background: none;
     border: none;
     box-shadow: none;
-    color: #cccecf;
+    color: #3e4e46;
     height: 4em;
     line-height: 4em;
     position: absolute;
