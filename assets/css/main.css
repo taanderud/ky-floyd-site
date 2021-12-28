@@ -2339,10 +2339,10 @@ body.landing #page-wrapper {
 }
 
 
-/* -- Color was 7e8487 --*/
+/* -- Color was 7e8487 - moved that to background--*/
 
 #header {
-    background: #ffffff;
+    background: #7e8487;
     border-bottom: solid 1px rgba(0, 0, 0, 0.125);
     box-shadow: 0 0.05em 0.125em 0 rgba(0, 0, 0, 0.075);
     color: #000;
