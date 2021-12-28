@@ -1,5 +1,5 @@
 /*
-	Elevation by Pixelarity
+	Strongly Typed by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
@@ -7,18 +7,14 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		$header = $('#header'),
-		$banner = $('#banner');
+		$body = $('body');
 
 	// Breakpoints.
 		breakpoints({
-			xlarge:   [ '1281px',  '1680px' ],
-			large:    [ '981px',   '1280px' ],
-			medium:   [ '841px',   '980px'  ],
-			small:    [ '737px',   '840px'  ],
-			xsmall:   [ '481px',   '736px'  ],
-			xxsmall:  [ null,      '480px'  ]
+			xlarge:  [ '1281px',  '1680px' ],
+			large:   [ '981px',   '1280px' ],
+			medium:  [ '737px',   '980px'  ],
+			small:   [ null,      '736px'  ]
 		});
 
 	// Play initial animations on page load.
@@ -30,14 +26,17 @@
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
-			alignment: 'center'
+			mode: 'fade',
+			noOpenerFade: true,
+			hoverDelay: 150,
+			hideDelay: 350
 		});
 
-	// Nav Panel.
+	// Nav.
 
-		// Button.
+		// Title Bar.
 			$(
-				'<div id="navButton">' +
+				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
 				'</div>'
 			)
@@ -62,26 +61,5 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
-
-	// Header.
-	// If the header is using "alt" styling and #banner is present, use scrollwatch
-	// to revert it back to normal styling once the user scrolls past the banner.
-	// Note: This is disabled on mobile devices.
-		if (!browser.mobile
-		&&	$header.hasClass('alt')
-		&&	$banner.length > 0) {
-
-			$window.on('load', function() {
-
-				$banner.scrollex({
-					bottom:		$header.outerHeight() + 5,
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt'); },
-					leave:		function() { $header.removeClass('alt'); $header.addClass('reveal'); }
-				});
-
-			});
-
-		}
 
 })(jQuery);
