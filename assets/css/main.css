@@ -1564,7 +1564,11 @@ header p {
     position: relative;
 }
 
+
+/* added black color */
+
 header h2+p {
+    color: #000;
     font-size: 1.25em;
     line-height: 1.5em;
     margin-top: -1em;
@@ -2342,7 +2346,7 @@ body.landing #page-wrapper {
 /* -- Color was 7e8487 - moved that to background--*/
 
 #header {
-    background: #7e8487;
+    background: #6D8989;
     border-bottom: solid 1px rgba(0, 0, 0, 0.125);
     box-shadow: 0 0.05em 0.125em 0 rgba(0, 0, 0, 0.075);
     color: #000;
@@ -2557,11 +2561,16 @@ body.landing #page-wrapper {
     margin: 2em 0 0 0;
 }
 
+
+/* add fount color to h2, p*/
+
 #banner header h2 {
+    color: #fff;
     font-size: 2.25em;
 }
 
 #banner header p {
+    color: #fff;
     font-size: 1em;
     font-style: normal;
 }
@@ -2614,6 +2623,9 @@ body.landing #page-wrapper {
 
 
 /* Footer */
+
+
+/* changed from 333c40 to 798383 */
 
 #footer {
     background: #333c40;
