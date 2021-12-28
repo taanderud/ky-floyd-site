@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Elevation by Pixelarity
+	Latitude by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 -->
@@ -16,16 +16,17 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1><a href="index.html">Elevation</a></h1>
+					<h1><a href="index.html">Latitude</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li>
-								<a href="#" class="icon solid fa-angle-down">Page Layouts</a>
+								<a href="#">Dropdown</a>
 								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li><a href="#">Option 1</a></li>
+									<li><a href="#">Option 2</a></li>
+									<li><a href="#">Option 3</a></li>
+									<li><a href="#">Option 4</a></li>
 									<li>
 										<a href="#">Submenu</a>
 										<ul>
@@ -37,24 +38,27 @@
 									</li>
 								</ul>
 							</li>
+							<li><a href="left-sidebar.html">Left Sidebar</a></li>
+							<li><a href="right-sidebar.html">Right Sidebar</a></li>
+							<li><a href="no-sidebar.html">No Sidebar</a></li>
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
 					</nav>
 				</header>
 
-			<!-- Main-->
-				<div class="wrapper style1">
-					<section id="main" class="container">
-						<header class="major">
-							<h2>Elements</h2>
-							<p>Ante aliquet amet posuere ac cubilia, faucibus neque adipiscing mi lorem semper blandit.</p>
-						</header>
+			<!-- Main -->
+				<section id="main" class="wrapper style2">
+					<header class="major">
+						<h2>Elements</h2>
+						<p>Ante aliquet amet posuere ac cubilia, faucibus neque adipiscing.</p>
+					</header>
+					<div class="container">
 
 						<!-- Text -->
-							<section class="box">
+							<section>
 								<h3>Text</h3>
 								<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-								This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+								This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.<br />
 								This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
 
 								<hr />
@@ -97,10 +101,10 @@ print 'It took ' + i + ' iterations to sort the deck.';
 							</section>
 
 						<!-- Lists -->
-							<section class="box">
+							<section>
 								<h3>Lists</h3>
 								<div class="row">
-									<div class="col-6 col-12-narrower">
+									<div class="col-6 col-12-mobile">
 
 										<h4>Unordered</h4>
 										<ul>
@@ -117,7 +121,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 										</ul>
 
 									</div>
-									<div class="col-6 col-12-narrower">
+									<div class="col-6 col-12-mobile">
 
 										<h4>Ordered</h4>
 										<ol>
@@ -145,42 +149,42 @@ print 'It took ' + i + ' iterations to sort the deck.';
 								<h4>Actions</h4>
 								<ul class="actions">
 									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt">Default</a></li>
+									<li><a href="#" class="button primary">Default</a></li>
 								</ul>
 								<ul class="actions small">
 									<li><a href="#" class="button small">Small</a></li>
-									<li><a href="#" class="button alt small">Small</a></li>
+									<li><a href="#" class="button primary small">Small</a></li>
 								</ul>
 								<div class="row">
-									<div class="col-3 col-12-narrower">
+									<div class="col-3 col-6-narrow col-12-mobile">
 										<ul class="actions stacked">
 											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
+											<li><a href="#" class="button primary">Default</a></li>
 										</ul>
 									</div>
-									<div class="col-3 col-12-narrower">
+									<div class="col-3 col-6-narrow col-12-mobile">
 										<ul class="actions stacked">
 											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
+											<li><a href="#" class="button primary small">Small</a></li>
 										</ul>
 									</div>
-									<div class="col-3 col-12-narrower">
+									<div class="col-3 col-6-narrow col-12-mobile">
 										<ul class="actions stacked">
 											<li><a href="#" class="button fit">Default</a></li>
-											<li><a href="#" class="button alt fit">Default</a></li>
+											<li><a href="#" class="button primary fit">Default</a></li>
 										</ul>
 									</div>
-									<div class="col-3 col-12-narrower">
+									<div class="col-3 col-6-narrow col-12-mobile">
 										<ul class="actions stacked">
 											<li><a href="#" class="button small fit">Small</a></li>
-											<li><a href="#" class="button alt small fit">Small</a></li>
+											<li><a href="#" class="button primary small fit">Small</a></li>
 										</ul>
 									</div>
 								</div>
 							</section>
 
 						<!-- Table -->
-							<section class="box">
+							<section>
 								<h3>Table</h3>
 
 								<h4>Default</h4>
@@ -277,43 +281,43 @@ print 'It took ' + i + ' iterations to sort the deck.';
 							</section>
 
 						<!-- Buttons -->
-							<section class="box">
+							<section>
 								<h3>Buttons</h3>
 								<ul class="actions">
 									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt">Alternate</a></li>
+									<li><a href="#" class="button primary">Primary</a></li>
 								</ul>
 								<ul class="actions">
 									<li><a href="#" class="button">Default</a></li>
-									<li><a href="#" class="button alt small">Small</a></li>
+									<li><a href="#" class="button primary small">Small</a></li>
 								</ul>
 								<ul class="actions fit">
 									<li><a href="#" class="button fit">Fit</a></li>
-									<li><a href="#" class="button alt fit">Fit</a></li>
+									<li><a href="#" class="button primary fit">Fit</a></li>
 								</ul>
 								<ul class="actions fit small">
 									<li><a href="#" class="button fit small">Fit + Small</a></li>
-									<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+									<li><a href="#" class="button primary fit small">Fit + Small</a></li>
 								</ul>
 								<ul class="actions">
 									<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+									<li><a href="#" class="button primary icon solid fa-check">Icon</a></li>
 								</ul>
 								<ul class="actions">
 									<li><span class="button disabled">Default</span></li>
-									<li><span class="button alt disabled">Alternate</span></li>
+									<li><span class="button primary disabled">Primary</span></li>
 								</ul>
 							</section>
 
 						<!-- Form -->
-							<section class="box">
+							<section>
 								<h3>Form</h3>
 								<form method="post" action="#">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-narrower">
+										<div class="col-6 col-12-mobilep">
 											<input type="text" name="name" id="name" value="" placeholder="Name" />
 										</div>
-										<div class="col-6 col-12-narrower">
+										<div class="col-6 col-12-mobilep">
 											<input type="email" name="email" id="email" value="" placeholder="Email" />
 										</div>
 										<div class="col-12">
@@ -325,23 +329,23 @@ print 'It took ' + i + ' iterations to sort the deck.';
 												<option value="1">Human Resources</option>
 											</select>
 										</div>
-										<div class="col-4 col-12-narrower">
+										<div class="col-4 col-12-mobile">
 											<input type="radio" id="priority-low" name="priority" checked>
 											<label for="priority-low">Low Priority</label>
 										</div>
-										<div class="col-4 col-12-narrower">
+										<div class="col-4 col-12-mobile">
 											<input type="radio" id="priority-normal" name="priority">
 											<label for="priority-normal">Normal Priority</label>
 										</div>
-										<div class="col-4 col-12-narrower">
+										<div class="col-4 col-12-mobile">
 											<input type="radio" id="priority-high" name="priority">
 											<label for="priority-high">High Priority</label>
 										</div>
-										<div class="col-6 col-12-narrower">
+										<div class="col-6 col-12-mobile">
 											<input type="checkbox" id="copy" name="copy">
 											<label for="copy">Email me a copy of this message</label>
 										</div>
-										<div class="col-6 col-12-narrower">
+										<div class="col-6 col-12-mobile">
 											<input type="checkbox" id="human" name="human" checked>
 											<label for="human">I am a human and not a robot</label>
 										</div>
@@ -350,8 +354,8 @@ print 'It took ' + i + ' iterations to sort the deck.';
 										</div>
 										<div class="col-12">
 											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Reset" class="alt" /></li>
+												<li><input type="submit" value="Send Message" class="primary" /></li>
+												<li><input type="reset" value="Reset" /></li>
 											</ul>
 										</div>
 									</div>
@@ -359,40 +363,92 @@ print 'It took ' + i + ' iterations to sort the deck.';
 							</section>
 
 						<!-- Image -->
-							<section class="box">
+							<section>
 								<h3>Image</h3>
 								<h4>Fit</h4>
-								<span class="image fit"><img src="images/pic05.jpg" alt="" /></span>
+								<span class="image fit"><img src="images/pic10.jpg" alt="" /></span>
 								<div class="box alt">
 									<div class="row gtr-50 gtr-uniform">
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-										<div class="col-4 col-12-narrower"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
 									</div>
 								</div>
 
 								<h4>Left &amp; Right</h4>
-								<p><span class="image left"><img src="images/pic06.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-								<p><span class="image right"><img src="images/pic06.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+								<p><span class="image left"><img src="images/pic11.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+								<p><span class="image right"><img src="images/pic11.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 							</section>
 
-					</section>
-				</div>
+					</div>
+				</section>
 
 			<!-- Footer -->
 				<footer id="footer">
-					<ul class="menu">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Terms of Use</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-6-narrow col-12-mobilep">
+								<h3>Feugiat sed consequat</h3>
+								<ul class="alt">
+									<li><a href="#">Phasellus sed scelerisque</a></li>
+									<li><a href="#">Donec tempus et tortor ultricies</a></li>
+									<li><a href="#">Eget pellentesque turpis ultrices</a></li>
+									<li><a href="#">Vestibulum ut nulla vel magna</a></li>
+									<li><a href="#">Iaculis arcu nulla vel lorem nisl</a></li>
+									<li><a href="#">Quis ultricies tellus et imperdiet</a></li>
+								</ul>
+							</div>
+							<div class="col-3 col-6-narrow col-12-mobilep">
+								<h3>Pellentesque et turpis</h3>
+								<ul class="alt">
+									<li><a href="#">Phasellus sed scelerisque</a></li>
+									<li><a href="#">Donec tempus et tortor ultricies</a></li>
+									<li><a href="#">Eget pellentesque turpis ultrices</a></li>
+									<li><a href="#">Vestibulum ut nulla vel magna</a></li>
+									<li><a href="#">Iaculis arcu nulla vel lorem nisl</a></li>
+									<li><a href="#">Quis ultricies tellus et imperdiet</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-12-narrow">
+								<h3>Malesuada vivamus lacus</h3>
+								<p>Phasellus dapibus convallis scelerisque. Donec tempus augue id tortor ultricies eget pellentesque turpis ultrices. Vestibulum ut nulla sem, vel iaculis arcu. Nulla vel lorem nisl sed quis ultricies tellus. Nunc laoreet. Nunc imperdiet elit sed dolore lacus venenatis rutrum.</p>
+								<h3>Tellus nunc dapibus</h3>
+								<div class="row">
+									<div class="col-6 col-12-mobilep">
+										<ul class="labeled-icons">
+											<li>
+												<h3 class="icon solid fa-map-marker-alt"><span class="label">Address</span></h3>
+												1234 Somewhere Rd.<br />
+												Nashville, TN 00000
+											</li>
+											<li>
+												<h3 class="icon solid fa-phone"><span class="label">Phone</span></h3>
+												(000) 000-0000
+											</li>
+										</ul>
+									</div>
+									<div class="col-6 col-12-mobilep">
+										<ul class="labeled-icons">
+											<li>
+												<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+												<a href="#">info@untitled.tld</a>
+											</li>
+											<li>
+												<h3 class="icon brands fa-twitter"><span class="label">Twitter</span></h3>
+												<a href="#">@untitledcorp-tld</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="copyright">
 						&copy; Untitled. All rights reserved.
 					</div>
@@ -408,5 +464,6 @@ print 'It took ' + i + ' iterations to sort the deck.';
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
