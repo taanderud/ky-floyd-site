@@ -2562,15 +2562,15 @@ body.landing #page-wrapper {
 }
 
 
-/* add font color to h2, p*/
+/* add fount color to h2, p*/
 
 #banner header h2 {
-    /* color: #fff; */
+    color: #fff;
     font-size: 2.25em;
 }
 
 #banner header p {
-    /* color: #fff; */
+    color: #fff;
     font-size: 1em;
     font-style: normal;
 }
