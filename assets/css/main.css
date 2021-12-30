@@ -201,18 +201,21 @@ textarea {
     line-height: 1.65em;
 }
 
+
+/* color was 83e1a7 replaced with*/
+
 a {
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
-    color: #83e1a7;
-    text-decoration: underline;
+    color: #45695f;
+    /* text-decoration: underline; */
 }
 
 a:hover {
     color: #83e1a7 !important;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 strong,
