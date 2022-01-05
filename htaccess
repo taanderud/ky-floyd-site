@@ -1,0 +1,24 @@
+#Support for SSI
+AddType text/html ".shtml"
+AddHandler server-parsed ".shtml"
+Options Indexes FollowSymLinks Includes
+AddHandler server-parsed ".html"
+#AddHandler server-parsed ".htm"
+
+
+##Rewrites
+RewriteEngine On
+
+Redirect 301 "/floyd/cemeteries.htm" "/floyd/records/cemeteries"
+Redirect 301 "/floyd/births.htm" "/floyd/records/births"
+Redirect 301 "/floyd/deaths.htm" "/floyd/records/deaths"
+Redirect 301 "/floyd/marriages.htm" "/floyd/records/marriage"
+Redirect 301 "/floyd/census-records.htm" "/floyd/records/census"
+Redirect 301 "/floyd/groupsheets.htm" "/floyd/surnames"
+
+#https://web.archive.org/web/20201211110754/http://kykinfolk.org/floyd/KYLandWarrants.htm
+#http://kykinfolk.org/floyd/KYLandWarrants.htm
+#https://web.archive.org/web/20201211110754/http://kykinfolk.org/floyd/photoindex.htm
+#http://kykinfolk.org/floyd/Mis_files/FloydMap.jpg
+
+#FallbackResource /floyd/index.html
