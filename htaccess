@@ -16,6 +16,8 @@ Redirect 301 "/floyd/marriages.htm" "/floyd/records/marriage"
 Redirect 301 "/floyd/census-records.htm" "/floyd/records/census"
 Redirect 301 "/floyd/groupsheets.htm" "/floyd/surnames"
 
+Options +FollowSymLinks RewriteEngine On RewriteRule ^(.*)/Photos/(.*)$ $1/photos/index.html [R,L]
+
 #https://web.archive.org/web/20201211110754/http://kykinfolk.org/floyd/KYLandWarrants.htm
 #http://kykinfolk.org/floyd/KYLandWarrants.htm
 #https://web.archive.org/web/20201211110754/http://kykinfolk.org/floyd/photoindex.htm
