@@ -1869,7 +1869,11 @@ input[type="radio"]+label:before {
     display: block;
     width: 100%;
 }
-
+/* Removed */
+img.thumb {
+    max-height: 100px;
+    max-width: 100px;
+}
 
 /* List */
 
