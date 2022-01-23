@@ -1,0 +1,97 @@
+body { margin:0px; padding:0px;}
+
+#RootsBanner-SearchWrapper-Green{
+        background:#f3f5de;
+        border-bottom:solid 1px #AFBC23;
+        width:100%;
+        min-width:760px;
+        height:37px;
+        margin:0px;
+        padding-top:6px;
+        padding-bottom:6px;
+}
+
+#RootsSearch-Wrapper-Green{
+        width:565px;
+        float:right;
+        height:38px;
+}
+
+
+#RootsBanner-SearchWrapper{
+	background:#F5F3F1;
+	border-bottom:solid 1px #B4A89A;
+	width:100%;
+	min-width:760px;
+	height:37px;
+	margin:0px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+#RootsSearch-Wrapper{
+	width:565px;
+	float:right;
+	height:38px;
+}
+
+.SearchForm-Container{
+	float:right;
+	margin-left:80px;
+	margin-top:-3px;
+	width:400px;
+	height:50px;
+}
+
+p.headerSearch{ 
+	margin:1px 0 0 0;
+	color:#655A46;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.rootsForm { float:left; }
+
+#fp_ftr     { border-top: 1px solid #bbb0a3; border-bottom: 1px solid #bbb0a3; background-color: #f5f3f1; }
+#fp_ftr a:link,
+#fp_ftr a:visited,
+#fp_ftr a:hover,
+#fp_ftr a:active    { color: #675d49; }
+#fp_ftr_inner .rwlogo { width:17%; height: 30px; }
+#fp_ftr_inner .links { text-align:left; width:  714px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10pt; }
+
+.rweb-neutral {
+        background:url(http://web.archive.org/web/20120214105804im_/http://images.rootsweb.com/h/roots_web_header_logo.jpg) no-repeat left center;
+        height:18px;
+        width:173px;
+        position:absolute;
+        padding-top: 16px;
+}
+
+.rweb-green {background:url(http://web.archive.org/web/20120214105804im_/http://images.rootsweb.com/h/roots_web_header_logo_green.jpg) no-repeat left center; height:18px; width:173px; position:absolute; padding-top: 16px;}
+.acom-neutral {background-image:url(http://web.archive.org/web/20120214105804im_/http://images.rootsweb.com/h/ances_header_logo.jpg); height:38px; width:155px; position:absolute; right:410px;}
+.acom-green {background-image:url(http://web.archive.org/web/20120214105804im_/http://images.rootsweb.com/h/ances_header_logo_green.jpg); height:38px; width:155px; position:absolute; right:410px;}
+
+
+/*
+     FILE ARCHIVED ON 10:58:04 Feb 14, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:07:02 Jan 23, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 440.799
+  exclusion.robots: 190.236
+  exclusion.robots.policy: 190.228
+  xauthn.identify: 119.515
+  xauthn.chkprivs: 70.436
+  RedisCDXSource: 10.446
+  esindex: 0.01
+  LoadShardBlock: 200.08 (3)
+  PetaboxLoader3.datanode: 132.635 (4)
+  CDXLines.iter: 18.486 (3)
+  load_resource: 116.013
+  PetaboxLoader3.resolve: 33.865
+*/
