@@ -6,6 +6,17 @@
 
 <link rel="stylesheet" href="/floyd/assets/css/main.css" />
 
+
+<!--  FACEBOOK  -->
+    <meta property="og:image" content="https://kykinfolk.org/floyd/images/site-artwork/social-share-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="627">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kykinfolk.org/floyd"/>
+    <meta property="og:title" content="KYGENWEB: Floyd County Kentucky" />
+    <meta property="og:description" content="Gather your Floyd County ancestor's data while learning about its unique role in Kentucky's history." />
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-VT6QH7VC3D"></script>
 <script>
